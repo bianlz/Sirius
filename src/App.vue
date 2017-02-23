@@ -51,7 +51,7 @@ a, button, input{
   display: block;
   width: 100%;
   background: rgba(255, 255, 255, 0.7);
-  height: 48px;
+  height: 144px;
   display: -webkit-box;
   display: box;
   margin: 0;
@@ -69,7 +69,7 @@ a, button, input{
   background: none;
 }
 .top_bar .top_menu > li > a{
-  height: 48px;
+  height: 144px;
   margin-right: 1px;
   display: block;
   text-align: center;
@@ -102,10 +102,10 @@ a, button, input{
 }
 .top_bar .top_menu > li > a img{
     padding: 3px 0 0 0;
-    height: 24px;
-    width: 24px;
+    height: 72px;
+    width: 72px;
     color: #fff;
-    line-height: 48px;
+    line-height: 144px;
     vertical-align: middle;
 }
 .top_bar li:first-child a{
