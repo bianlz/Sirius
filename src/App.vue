@@ -79,17 +79,17 @@ a, button, input{
   -webkit-box-flex: 1;
 }
 .top_bar .top_menu > li.home{
-    max-width: 70px;
+    max-width: 100px;
 }
 .top_bar .top_menu > li.home a{
-    height: 66px;
-    width: 66px;
+    height: 96px;
+    width: 96px;
     margin: auto;
     border-radius: 60px;
     position: relative;
     top: -22px;
     left: 2px;
-    background: url('/static/free.png') no-repeat center center;
+    background: url('/static/shoppingCart.png') no-repeat center center;
     background-size: 100% 100%;
 }
 .top_bar .top_menu > li > a label{
@@ -101,7 +101,7 @@ a, button, input{
     text-align: center;
 }
 .top_bar .top_menu > li > a img{
-    padding: 3px 0 0 0;
+    padding: 20px 0 0 0;
     height: 72px;
     width: 72px;
     color: #fff;
