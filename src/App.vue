@@ -3,10 +3,10 @@
     <router-view></router-view>
     <div id="nav" class="navbar-fixed-bottom" >
       <ul class="nav nav-tabs ">
-        <li><a href="javascript:void(0)"><img src="/static/home.png"></br><label>主页</label></a></li>
-        <li><a href="javascript:void(0)"><img src="/static/food.png"></br><label>菜品</label></a></li>    
-        <li><a href="javascript:void(0)"><img src="/static/promotion.png"></br><label>活动</label></a></li>
-        <li><a href="javascript:void(0)"><img src="/static/me.png"></br><label>我</label></a></li>
+        <li><a href="javascript:void(0)"><img src="/static/home.png"></br></br><label>主 页</label></a></li>
+        <li><a href="javascript:void(0)"><img src="/static/food.png"></br></br><label>菜 品</label></a></li>    
+        <li><a href="javascript:void(0)"><img src="/static/promotion.png"></br></br><label>活 动</label></a></li>
+        <li><a href="javascript:void(0)"><img src="/static/me.png"></br></br><label>我</label></a></li>
       </ul>
     </div>
   </div>
@@ -29,10 +29,13 @@ export default {
   padding-bottom:100%
 }
 
+label{
+  font-size: 25px;
+}
+
 #nav {
   -webkit-transform: translate3d(0,0,0);
   background-color: #d9d9d9;
-  height: 20%
 }
 #nav li {
   margin-bottom: 0px;

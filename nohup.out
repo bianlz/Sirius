@@ -1,0 +1,30 @@
+
+> sirius@1.0.0 dev /Users/bianlanzhou/Develop/workspace/Sirius/Sirius
+> node build/dev-server.js
+
+(node:25637) DeprecationWarning: loaderUtils.parseQuery() received a non-string value which can be problematic, see https://github.com/webpack/loader-utils/issues/56
+parseQuery() will be replaced with getOptions() in the next major version of loader-utils.
+ DONE  Compiled successfully in 3905ms11:09:07
+
+> Listening at http://localhost:8080
+
+ WAIT  Compiling...11:09:17
+
+ DONE  Compiled successfully in 204ms11:09:18
+
+ WAIT  Compiling...11:09:24
+
+ DONE  Compiled successfully in 127ms11:09:25
+
+ WAIT  Compiling...11:10:11
+
+ DONE  Compiled successfully in 172ms11:10:11
+
+ WAIT  Compiling...11:10:40
+
+ DONE  Compiled successfully in 151ms11:10:41
+
+ WAIT  Compiling...11:10:51
+
+ DONE  Compiled successfully in 164ms11:10:51
+
