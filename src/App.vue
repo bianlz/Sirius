@@ -3,10 +3,10 @@
     <router-view></router-view>
     <div id="nav" class="navbar-fixed-bottom" >
       <ul class="nav nav-tabs ">
-        <li><a href="javascript:void(0)"><img src="/static/home.png"></br></br><label>主 页</label></a></li>
-        <li><a href="javascript:void(0)"><img src="/static/food.png"></br></br><label>菜 品</label></a></li>    
-        <li><a href="javascript:void(0)"><img src="/static/promotion.png"></br></br><label>活 动</label></a></li>
-        <li><a href="javascript:void(0)"><img src="/static/me.png"></br></br><label>我</label></a></li>
+        <li><router-link to="/"><img src="/static/home.png"></br></br><label>主 页</label></router-link></li>
+        <li><router-link to="/goods"><img src="/static/food.png"></br></br><label>菜 品</label></router-link></li>    
+        <li><router-link to="/promotion"><img src="/static/promotion.png"></br></br><label>活 动</label></router-link></li>
+        <li><router-link to="/me"><img src="/static/me.png"></br></br><label>我</label></router-link></li>
       </ul>
     </div>
   </div>
