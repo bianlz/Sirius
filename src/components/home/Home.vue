@@ -1,12 +1,11 @@
 <template>
   <div class="Home">
     <h1>{{ msg }}</h1>
-    <goodsShow></goodsShow>
+    <goods-show></goods-show>
   </div>
 </template>
 
 <script>
-import Vue from 'vue'
 import goodsShow from 'components/common/GoodsShow'
 export default {
   name: 'Home',
@@ -14,10 +13,8 @@ export default {
     return {
       msg: '主页'
     }
-    components: {
-	    goodsShow
-  	}
-  }
+  },
+  components: {goodsShow}
 }
 </script>
 
