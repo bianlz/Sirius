@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="container-fluid" >
+  <div id="app" >
     <router-view></router-view>
     <div id="nav" class="navbar-fixed-bottom" >
       <ul class="nav nav-tabs ">
@@ -19,14 +19,16 @@ export default {
 </script>
 
 <style>
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
-  padding-bottom:100%
+  margin-top: 0px;
+  padding-bottom:100%;
+  width: 100%;
 }
 
 label{
@@ -43,5 +45,8 @@ label{
 }
 #nav img{
   display:inline-block;
+}
+router-view{
+  border:1px solid #F00;
 }
 </style>
