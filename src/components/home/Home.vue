@@ -1,11 +1,13 @@
 <template>
   <div class="Home">   
     <goods-show></goods-show>
+    <notice></notice>
   </div>
 </template>
 
 <script>
 import goodsShow from 'components/common/GoodsShow'
+import notice from 'components/common/Notice'
 export default {
   name: 'Home',
   data () {
@@ -13,7 +15,7 @@ export default {
       msg: '主页'
     }
   },
-  components: {goodsShow}
+  components: {goodsShow,notice}
 }
 </script>
 
