@@ -61,14 +61,15 @@ export default {
   left:0;
   top:0;
   white-space:nowrap;
+  font-size: 20px;
 }
 #container{
   background:#CCCCCC;
   position:relative;
   overflow:hidden;  
   width:100%;
-  height:25px;
-  line-height:25px;
+  height:40px;
+  line-height:40px;
   margin:0px;
 }
 </style>
