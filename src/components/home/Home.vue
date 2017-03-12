@@ -1,13 +1,15 @@
 <template>
   <div class="Home">   
-    <goods-show></goods-show>
+    <focus></focus>
     <notice></notice>
+    <goods-list></goods-list>
   </div>
 </template>
 
 <script>
-import goodsShow from 'components/common/GoodsShow'
+import focus from 'components/common/Focus'
 import notice from 'components/common/Notice'
+import goodsList from 'components/good/GoodsList'
 export default {
   name: 'Home',
   data () {
@@ -15,7 +17,7 @@ export default {
       msg: '主页'
     }
   },
-  components: {goodsShow,notice}
+  components: {focus,notice,goodsList}
 }
 </script>
 
