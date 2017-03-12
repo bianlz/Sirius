@@ -1,17 +1,17 @@
 <template>
-  <div class="Me">
-    <h1>{{ msg }}</h1>
-  </div>
+  <goods-list></goods-list>
 </template>
 
 <script>
+import goodsList from 'components/good/GoodsList'
 export default {
   name: 'Me',
   data () {
     return {
       msg: '我'
     }
-  }
+  },
+  components: {goodsList}
 }
 </script>
 

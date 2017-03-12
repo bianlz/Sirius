@@ -16,8 +16,9 @@ import Vue from 'vue'
 import { swiper, swiperSlide } from 'vue-awesome-swiper'
 import { getGoodsList } from 'utils/apiUtil'
 require('swiper/dist/css/swiper.css')
+
 export default {
-  name: 'focus',
+  name: 'Goods',
   data () {
     return {
       swiperOption: {
@@ -35,7 +36,7 @@ export default {
     swiperSlide
   },
   methods:{
-    getList:async function() {
+    getList:function() {
         //let data = await getGoodsList();
         
     }
