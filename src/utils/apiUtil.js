@@ -4,7 +4,7 @@
 
  import "whatwg-fetch"
 
- const host_addr = 'http://123.56.14.172:8081/api'
+ const host_addr = 'http://123.56.14.172:8888/api'
 
 
 export let getGoodsList = function(component){
