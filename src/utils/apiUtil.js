@@ -5,6 +5,7 @@
  import "whatwg-fetch"
 
  const host_addr = 'http://123.56.14.172:8080/api'
+ //const host_addr = 'http://localhost:8081/api'
 
 
 export let getGoodsList = function(component){
@@ -48,7 +49,6 @@ export let getFocusList = function(component){
           for (var i = 0; i < json.data.length; i++) {
             component.items.push(json.data[i]);
           }
-          console.log(component.items.length);
         }
       }
     return json;

@@ -4,7 +4,7 @@
         <swiper-slide v-for="item in items"  >
           <img v-bind:src="item.img" alt="item" />
         </swiper-slide>
-        <div class="swiper-pagination" slot="pagination" v-on:click="testOn()"></div>
+        <div class="swiper-pagination" slot="pagination" ></div>
       </swiper>
 </template>
 
@@ -36,9 +36,6 @@ export default {
   methods:{
     getList:function() {
       getFocusList(this);
-    },
-    testOn:function(){
-      alert(this.items.length)
     }
   }
 }
